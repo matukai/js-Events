@@ -82,7 +82,7 @@ console.log([Math.floor(Math.random() * quotes.length)]);
 /*Create an event listener that will show and hide the message when clicking on the button.
 */
 
-document.getElementById("showHide").addEventListener("click",showMe);
+/*document.getElementById("showHide").addEventListener("click",showMe);
 
 var money = document.getElementById("showmoney");
 
@@ -93,5 +93,8 @@ function showMe(){
 		money.style.display === "display";
 	}
 }
+*/
 
-
+function test(){
+	return console.log("TEST COMMIT");
+}
